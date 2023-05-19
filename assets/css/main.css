@@ -8364,18 +8364,6 @@ body {
   width: 100%;
   height: 100%;
 }
-.myContainer .clients .video-box .poster__blur {
-  position: absolute;
-  width: 834px;
-  height: 497px;
-  background: linear-gradient(116.04deg, rgba(255, 255, 255, 0.4) 11.75%, rgba(255, 255, 255, 0.1) 78.69%);
-  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
-  z-index: -1;
-  border-radius: 15px;
-}
 .myContainer .clients .video-box .poster {
   position: relative;
   width: 100%;
@@ -8385,6 +8373,16 @@ body {
   border-radius: 20px;
   position: relative;
   z-index: 3;
+}
+.myContainer .clients .video-box .poster .poster__blur {
+  width: 834px;
+  background: linear-gradient(116.04deg, rgba(255, 255, 255, 0.4) 11.75%, rgba(255, 255, 255, 0.1) 78.69%);
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  z-index: -1;
+  border-radius: 15px;
 }
 .myContainer .clients .video-box .poster img {
   width: 100% !important;
@@ -8609,7 +8607,10 @@ body {
           justify-content: center;
 }
 .myContainer .wrapper .tab .img-box img {
-  width: 100%;
+  width: 90%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .myContainer .wrapper .tab.terminals .img-box img {
   scale: 1.2;
@@ -9984,6 +9985,11 @@ footer .footer__brands img {
   .myContainer .clients .video-box .third-poster {
     bottom: 15%;
   }
+  .myContainer .poster__blur {
+    position: static !important;
+    width: 834px !important;
+    height: auto !important;
+  }
 }
 @media (min-width: 1400px) and (max-width: 986px) {
   .myContainer {
@@ -10288,89 +10294,165 @@ footer .footer__brands img {
     background-clip: text;
   }
 }
-@media (max-width: 1000px) {
-  .homepageShowcase {
-    overflow: hidden;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 50px;
+@media (max-width: 1383px) {
+  .myContainer .clients .video-box .poster {
+    width: 85%;
   }
-  .homepageShowcase .showcase-text {
-    padding-top: 100px;
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
   }
-  .homepageShowcase .showcase-text .icons-1 {
-    left: -5%;
-    top: 2%;
+  .myContainer .clients .video-box .third-poster {
+    right: -40%;
   }
-  .homepageShowcase .showcase-text .icons-1 .three {
-    width: 201px !important;
-    height: 301px !important;
-  }
-  .homepageShowcase .showcase-text .icons-1 .clover {
-    left: 51%;
-    bottom: 16%;
-    width: 40px;
-  }
-  .homepageShowcase .showcase-text .icons-2 {
-    right: 0px;
-    top: 2%;
-  }
-  .homepageShowcase .showcase-text .icons-2 img {
-    width: 173px !important;
-    height: 200px !important;
-  }
-  .homepageShowcase .showcase-text .icons-3 {
-    left: 1%;
-    bottom: -4%;
-  }
-  .homepageShowcase .showcase-text .icons-3 img {
-    width: 200px;
-  }
-  .homepageShowcase .showcase-text .icons-4 {
-    width: 15%;
-    right: 5%;
-    bottom: 10%;
-  }
-  .homepageShowcase .showcase-text .icons-5 {
-    right: 20%;
-    bottom: 10%;
-  }
-  .homepageShowcase .showcase-text .icons-5 img {
-    width: 52px;
-    height: 52px;
-  }
-  .homepageShowcase .showcase-text .icons-6 {
-    width: 20%;
-    left: 50%;
-    bottom: -20%;
-  }
-  .homepageShowcase .showcase-text h1 {
-    width: 60%;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 60px;
-  }
-  .homepageShowcase .showcase-text p {
-    font-size: 16px;
-    line-height: 145%;
-  }
-  .homepageShowcase .showcase-text form {
-    margin-top: 30px;
-    gap: 35px;
-  }
-  .homepageShowcase .showcase-text form button {
-    padding: 15px 0px;
-    width: 146px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    height: 50px;
-  }
-  .homepageShowcase .showcase-text form a {
-    font-size: 18px;
-    line-height: 19px;
+  .text-box p {
+    margin-left: -22%;
   }
 }
+@media (max-width: 1263px) {
+  .myContainer .clients .video-box .poster {
+    width: 75%;
+  }
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
+  }
+  .myContainer .clients .video-box .third-poster {
+    right: -30%;
+  }
+  .text-box p {
+    max-width: 350px;
+    margin-left: -60%;
+  }
+  .myContainer .clients .video-box .second-poster {
+    bottom: -40%;
+    right: 3%;
+  }
+}
+@media (max-width: 1187px) {
+  .myContainer .clients .video-box .poster {
+    width: 65%;
+  }
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
+  }
+  .myContainer .clients .video-box .third-poster {
+    right: -18%;
+  }
+  .text-box p {
+    max-width: 350px;
+    margin-left: -190%;
+  }
+  .myContainer .clients .video-box .second-poster {
+    bottom: -40%;
+    right: 3%;
+  }
+}
+@media (max-width: 1000px) {
+  .myContainer .clients .video-box .poster {
+    width: 100%;
+  }
+}
+.myContainer .clients .video-box .second-poster {
+  bottom: -40%;
+  right: 3%;
+}
+
+.myContainer .clients .video-box .third-poster {
+  right: -2%;
+}
+
+.myContainer .clients .clients-link {
+  bottom: 1%;
+  left: 44%;
+}
+
+.homepageShowcase {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.homepageShowcase .showcase-text {
+  padding-top: 100px;
+}
+.homepageShowcase .showcase-text .icons-1 {
+  left: -5%;
+  top: 2%;
+}
+.homepageShowcase .showcase-text .icons-1 .three {
+  width: 201px !important;
+  height: 301px !important;
+}
+.homepageShowcase .showcase-text .icons-1 .clover {
+  left: 51%;
+  bottom: 16%;
+  width: 40px;
+}
+.homepageShowcase .showcase-text .icons-2 {
+  right: 0px;
+  top: 2%;
+}
+.homepageShowcase .showcase-text .icons-2 img {
+  width: 173px !important;
+  height: 200px !important;
+}
+.homepageShowcase .showcase-text .icons-3 {
+  left: 1%;
+  bottom: -4%;
+}
+.homepageShowcase .showcase-text .icons-3 img {
+  width: 200px;
+}
+.homepageShowcase .showcase-text .icons-4 {
+  width: 15%;
+  right: 5%;
+  bottom: 10%;
+}
+.homepageShowcase .showcase-text .icons-5 {
+  right: 20%;
+  bottom: 10%;
+}
+.homepageShowcase .showcase-text .icons-5 img {
+  width: 52px;
+  height: 52px;
+}
+.homepageShowcase .showcase-text .icons-6 {
+  width: 20%;
+  left: 50%;
+  bottom: -20%;
+}
+.homepageShowcase .showcase-text h1 {
+  width: 60%;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+}
+.homepageShowcase .showcase-text p {
+  font-size: 16px;
+  line-height: 145%;
+}
+.homepageShowcase .showcase-text form {
+  margin-top: 30px;
+  gap: 35px;
+}
+.homepageShowcase .showcase-text form button {
+  padding: 15px 0px;
+  width: 146px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  height: 50px;
+}
+.homepageShowcase .showcase-text form a {
+  font-size: 18px;
+  line-height: 19px;
+}
+
 @media (max-width: 760px) {
   .homepageShowcase {
     height: 100% h;
