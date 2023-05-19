@@ -1,0 +1,299 @@
+.retailer-showcase{
+    height: 100vh;
+    background: url(../media/retail\ showcase.png);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    margin-bottom: 120px;
+
+    .retailer-showcase-wrapper{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        h1{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 65px;
+            line-height: 76px;
+            text-align: center;
+            letter-spacing: -0.06em;
+            background: linear-gradient(90deg, #20333D 0%, #2788BF 75.48%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            span{
+                font-weight: 700;
+            }
+        }
+
+        button{
+            background: #EF4E2A;
+            color: #fff !important;
+            border-radius: 8px;
+            padding: 8px 25px;
+            border: 1px solid #EF4E2A;
+            -webkit-text-fill-color: #fff;
+
+            &:hover{
+                background: transparent;
+                -webkit-text-fill-color: #EF4E2A;
+            }
+
+        }
+    }
+}
+
+
+@media (min-width: 1400px){
+
+
+    .retailer-showcase{
+        height: 100vh;
+        background: url(../media/retail\ showcase.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-width: 1700px;
+        margin: 0 auto;
+    
+        .retailer-showcase-wrapper{
+            width: 55%;
+            margin: 0 auto;
+            text-align: center;
+    
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 80px;
+                line-height: 96px;
+                text-align: center;
+                letter-spacing: -0.06em;
+                background: linear-gradient(90deg, #20333D 0%, #2788BF 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                span{
+                    font-weight: 700;
+                }
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #76777E;
+            }
+    
+            button{
+                width: 196px;
+                height: 55px;
+                padding: 8px 25px;
+                border: 1px solid #EF4E2A;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                background: linear-gradient(90deg, #EF4E2A 0%, #FE6422 100%);
+                border-radius: 12px;
+                color: #FFFFFF;
+                
+    
+                &:hover{
+                    background: transparent;
+                    -webkit-text-fill-color: #EF4E2A;
+                }
+    
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 900px){
+
+    .retailer-showcase{
+        height: 100%;
+        background: url(../media/partnershowcasee.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0;
+        margin: 20px 0;
+    
+    }
+    
+
+}
+
+@media (max-width: 768px){
+
+    .retailer-showcase{
+        background: url(../media/retail\ showcase.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        margin-bottom: 120px;
+    
+        .retailer-showcase-wrapper{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+    
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 66px;
+                text-align: center;
+                letter-spacing: -0.06em;
+                background: linear-gradient(90deg, #20333D 0%, #2788BF 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                span{
+                    font-weight: 700;
+                }
+            }
+    
+            button{
+                background: #EF4E2A;
+                color: #fff !important;
+                border-radius: 8px;
+                padding: 6px 20px;
+                border: 1px solid #EF4E2A;
+                -webkit-text-fill-color: #fff;
+                margin-top: 30px;
+                &:hover{
+                    background: transparent;
+                    -webkit-text-fill-color: #EF4E2A;
+                }
+    
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 600px){
+
+    .retailer-showcase{
+        height: 70vh;
+        background: url(../media/retail\ mobile.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10px 0;
+        margin-bottom: 10px;
+
+        .retailer-showcase-wrapper{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+    
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                text-align: center;
+                letter-spacing: -0.06em;
+                background: linear-gradient(90deg, #20333D 0%, #2788BF 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                span{
+                    font-weight: 700;
+                }
+            }
+    
+            button{
+                background: #EF4E2A;
+                color: #fff !important;
+                border-radius: 8px;
+                padding: 6px 20px;
+                border: 1px solid #EF4E2A;
+                -webkit-text-fill-color: #fff;
+                margin-top: 30px;
+                width: 165.64px;
+                height: 45px;
+    
+            }
+        }
+       
+    
+    }
+
+    .success{
+
+        ul{
+            position: sticky;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            
+
+    
+            .guy{
+                position: sticky;
+                width: 100%;
+                top: 0px;
+                right: -0px;
+                padding: 5px;
+    
+            }
+    
+            .teacher{
+                position: static;
+                right: 0px;
+                bottom: 0px;
+    
+            }
+    
+            .laptop{
+                position: sticky;
+                right: 0px;
+                bottom: 0px;
+    
+            }
+        }
+    }
+}

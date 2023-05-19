@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css"
+    />
+
+    <title>WOW</title>
+  </head>
+  <body>
+    <div class="myContainer">
+      <header>
+        <nav class="navbar" uk-dropnav="mode: click">
+          <div class="navbar__logo">
+            <a href="index.html"
+              ><img src="./assets/media/Frame.png" alt="Logo"
+            /></a>
+          </div>
+          <ul class="navbar__links uk-subnav">
+            <li>
+              <a href="#">Partner programs <span uk-drop-parent-icon></span></a>
+              <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li class=""><a href="equipment.html">Equipment page</a></li>
+                  <li><a href="reseller.html">Reseller Program</a></li>
+                  <li><a href="integrated.html">Integrated</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Solutions<span uk-drop-parent-icon></span></a>
+              <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="banking.html">Banking</a></li>
+                  <li><a href="payments.html">Payments</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Business Types<span uk-drop-parent-icon></span></a>
+              <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="partner.html">ISO Partner</a></li>
+                  <li><a href="boost.html">Boost</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="stremline.html">Streamline<span></span></a>
+              <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+            </li>
+            <li>
+              <a href="about.html">About Us<span></span></a>
+              <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+            </li>
+            <li>
+              <a href="contactus.html">Contact Us<span></span></a>
+              <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+            </li>
+          </ul>
+          <div class="navbar__links__registration">
+            <li>
+              <a href="">Sign in<span uk-drop-parent-icon></span></a>
+              <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="retailers.html">Retailers</a></li>
+                  <li><a href="earn.html">Earn</a></li>
+                </ul>
+              </div>
+            </li>
+            <button class="navbar__links__registration__button">
+              Get Started
+            </button>
+          </div>
+
+          <div class="navbar__mobile-menu-bar">
+            <span
+              class="uk-button"
+              uk-toggle="target: #offcanvas-flip"
+              uk-icon="menu"
+            ></span>
+
+            <div id="offcanvas-flip" uk-offcanvas=" overlay: true">
+              <div class="uk-offcanvas-bar">
+                <button
+                  class="uk-offcanvas-close"
+                  type="button"
+                  uk-close
+                ></button>
+                <div class="navbar__logo">
+                  <a href="index.html"
+                    ><img src="./assets/media/Frame.png" alt="Logo"
+                  /></a>
+                </div>
+                <ul uk-accordion>
+                  <li class="">
+                    <a class="uk-accordion-title" href="#"
+                      >Partner programs <span uk-drop-parent-icon></span
+                    ></a>
+                    <div class="uk-accordion-content">
+                      <ul class="uk-nav uk-dropdown-nav">
+                        <li class="">
+                          <a href="equipment.html">Equipment page</a>
+                        </li>
+                        <li><a href="reseller.html">Reseller Program</a></li>
+                        <li><a href="integrated.html">Integrated</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="uk-accordion-title" href="#"
+                      >Solutions<span uk-drop-parent-icon></span
+                    ></a>
+                    <div class="uk-accordion-content">
+                      <ul class="uk-nav uk-dropdown-nav">
+                        <li><a href="banking.html">Banking</a></li>
+                        <li><a href="payments.html">Payments</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="uk-accordion-title" href="#"
+                      >Business Types <span uk-drop-parent-icon></span
+                    ></a>
+                    <div class="uk-accordion-content">
+                      <ul class="uk-nav uk-dropdown-nav">
+                        <li><a href="partner.html">ISO Partner</a></li>
+                        <li><a href="boost.html">Boost</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="uk-accordion" href="stremline.html">Pricing</a>
+                  </li>
+                  <li>
+                    <a class="uk-accordion" href="about.html">Blogs</a>
+                  </li>
+                  <li>
+                    <a class="uk-accordion" href="contactus.html">Blogs</a>
+                  </li>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header accordion-header-new">
+                      <button
+                        style="
+                          color: #76777e;
+                          font-size: 14px;
+                        "
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Sign in <span uk-drop-parent-icon></span>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <li><a href="retailers.html">Retailers</a></li>
+                        <li><a href="earn.html">Earn</a></li>
+                      </div>
+                    </div>
+                  </div>
+
+                  <li>
+                    <button class="nav-btn">Get Started</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <div class="about-showcase">
+      <div class="myContainer">
+        <div class="about-showcase-wrapper">
+          <div class="about-showcase-wrapper-text">
+            <h1>Why <span>WOW</span></h1>
+            <p>
+              WOW Payments was founded in 2016 to blaze the trail for a new kind
+              of merchant service provider, one that was not afraid to step
+              outside of the box and deliver the services and solutions that
+              merchants, and sales partners needed.
+            </p>
+            <button>Get Started</button>
+          </div>
+          <div class="about-showcase-wrapper-image">
+            <img src="./assets/media/phones.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="myContainer">
+      <div class="section">
+        <p>
+          With the ability to compete with much larger providers while retaining
+          that smaller, boutique ISO partner experience, WOW began to change how
+          merchants were handled.
+        </p>
+
+        <div class="section__image">
+          <img src="./assets/media/girls.png" alt="" />
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="section2__box">
+          <p>
+            With years of experience working in the merchant services industry,
+            we realized something was seriously wrong. Merchant service
+            providers were cheating business owners out of their hard-earned
+            profits by tacking on huge markups and hidden fees.
+          </p>
+        </div>
+        <div class="section2__box">
+          <p>
+            Our goal is to save businesses from greedy payment processors by
+            eliminating those costly markups and hidden fees. Additionally, to
+            help business owners grow, retain, and make money by using the
+            latest technologies available.
+          </p>
+        </div>
+      </div>
+
+      <div class="increase">
+        <div class="increase-header">
+          <h2>
+            <span>4,000% + increase in activations </span> and processed volume
+          </h2>
+          <p>
+            This shift in card acceptance philosophy led to a 4,000% + increase
+            in activations and processed volume over the course of 4 years.
+          </p>
+        </div>
+
+        <div class="increase-wrapper">
+          <div class="increase-wrapper-container">
+            <div class="increase-wrapper-container-image">
+              <img src="./assets/media/girl and guy.png" alt="" />
+              <div class="boxx">
+                <p>
+                  We were recognized by Entrepenuer360 for our accomplishments
+                  in 2016, 2018, and 2019 as well as made the INC 500/5000 list
+                  for 2018, 2019, and 2020.
+                </p>
+              </div>
+            </div>
+            <div class="increase-wrapper-container-text">
+              <p>
+                Through our strategic partnerships with Processors, Sponsor
+                Banks, and Reseller Partners, we continue to grow and provide
+                our merchants with options to better serve their businesses and
+                communities.
+              </p>
+
+              <div class="rocket-start">
+                <img src="./assets/media/starting rocket.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fast">
+        <div class="fast-header">
+          <h1>Now fast forward to 2023 <span>and the new WOW</span></h1>
+          <p>
+            WOW is not just a payments company focusing on retail business. We
+            have expanded our offerings and services through strategic
+            partnerships.
+          </p>
+        </div>
+
+        <div class="fast-wrapper">
+          <p>
+            We will now have the ability to partner with technology and software
+            companies along with venturing into new and developing verticals.
+            Phase one which included going to market with a unique and
+            proprietary terminal offering has already been completed and is
+            allowing us to segway and compete with other well know hardware
+            providers.
+          </p>
+
+          <a href="#">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+
+          <div class="gear">
+            <img src="./assets/media/Gear.png" alt="" />
+          </div>
+          <div class="cardd">
+            <img src="./assets/media/Credit Card.png" alt="" />
+          </div>
+          <div class="louder">
+            <img src="./assets/media/Loudspeaker.png" alt="" />
+          </div>
+          <div class="moneybg">
+            <img src="./assets/media/Money Bag.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="section3-text">
+          <p>
+            The next part of this venture will be the release of our digital
+            banking solution called WOW Banking Services. Having the ability to
+            approve a merchant for merchant processing and a business checking
+            account will streamline the entire activation process and give the
+            merchant the control over their funding as they need.
+          </p>
+          <a href="#">Let's Partner <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="section3-img">
+          <img src="./assets/media/flying rocket.png" alt="" />
+        </div>
+        <div class="section3-image">
+          <img src="./assets/media/friends.png" alt="" />
+          <div class="woww">
+            <p>
+              WOW, and its partners are primed for success and ready to provide
+              our merchants and their customers with the level of service and
+              offerings to be expected from a leader in the industry.
+            </p>
+
+            <div class="shake">
+              <img src="./assets/media/Handshake.png" alt="" />
+            </div>
+            <div class="bag">
+              <img src="./assets/media/Briefcase.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="section3-parag">
+          <p>
+            Funds will be available for immediate use and through the usage of
+            the WOW Bank Card, they will open themselves up to exciting and
+            valuable rewards. WOW now has the footprint of a smaller niche ISO
+            partner but with the infrastructure and technology of any major
+            competitor in the space. We are built efficiently and are capable of
+            getting creative and flexible when needed – there is no problem or
+            opportunity too small or too large.
+          </p>
+        </div>
+      </div>
+
+      <div class="affraid">
+        <div class="affraid-header">
+          <h1>We are not afraid <span>to be different!</span></h1>
+        </div>
+
+        <div class="affraid-wrapper">
+          <ul>
+            <li>
+              <a href="#"
+                >Learn about WOW's banking services
+                <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">
+                Wondering about our solutions?<i
+                  class="fa-solid fa-arrow-right"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Have you heard of our reseller program?
+                <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">
+                Would you like some assistance?<i
+                  class="fa-solid fa-arrow-right"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="myContainer">
+      <footer>
+        <div class="footer__links">
+          <div class="footer__links__logo">
+            <img src="./assets/media/Frame.png" alt="logo" />
+          </div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <div class="footer__links__socials">
+            <a href="#" uk-icon="icon: facebook"></a>
+            <a href="#" uk-icon="icon: linkedin"></a>
+            <a href="#" uk-icon="icon: instagram"></a>
+          </div>
+        </div>
+        <div class="footer__brands">
+          <a href="#"> <img src="./assets/media/google-rating.svg" alt="" /></a>
+          <a href="#"
+            ><img src="./assets/media/glassdor rating.svg" alt=""
+          /></a>
+          <a href="#"><img src="./assets/media/trustpilot.svg" alt="" /></a>
+          <a href="#"
+            ><img src="./assets/media/accredited business.svg" alt=""
+          /></a>
+          <a href="#"><img src="./assets/media/facebook rate.svg" alt="" /></a>
+          <a href="#"><img src="./assets/media/pci.svg" alt="" /></a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- UIkit JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

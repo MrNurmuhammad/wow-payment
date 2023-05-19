@@ -1,0 +1,425 @@
+.streamline-showcase{
+    background: url(../media/ecommerse.png);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.flying-rocket{
+   
+    margin: 50px auto;
+
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        letter-spacing: -0.03em;
+        color: #76777E;
+    }
+}
+
+.success{
+
+    ul{
+        position: relative;
+
+        .guy{
+            background: rgba(124, 124, 124, 0.06);
+            backdrop-filter: blur(12.5px);
+            border-radius: 16px;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 7px;
+            position: absolute;
+            width: 150px;
+            top: -100px;
+            right: -100px;
+            padding: 5px;
+            p{
+                margin: 0;
+                font-size: .8rem;
+                color: black;
+            }
+
+        }
+
+        .teacher{
+            background: rgba(124, 124, 124, 0.06);
+            backdrop-filter: blur(12.5px);
+            border-radius: 16px;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+            position: absolute;
+            right: -100px;
+            bottom: -150px;
+            color: black;
+
+            p{
+                margin: 0;
+                color: black;
+                font-size: .8rem;
+            }
+
+        }
+
+        .laptop{
+            background: rgba(124, 124, 124, 0.06);
+            backdrop-filter: blur(12.5px);
+            border-radius: 16px;
+            padding: 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+            position: absolute;
+            right: -430px;
+            bottom: -80px;
+            color: black;
+
+            p{
+                margin: 0;
+                color: black;
+                font-size: .8rem;
+            }
+
+        }
+    }
+}
+
+
+@media (min-width: 1400px){
+    .streamline-showcase{
+        background: url(../media/ecommerse.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1700px;
+
+        .partner-showcase-wrapper{
+
+           h1{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 96px;
+            text-align: center;
+            letter-spacing: -0.06em;
+            background: linear-gradient(90deg, #20333D 0%, #BF5327 75.48%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+           }
+           button{
+            margin-top: 30px;
+            width: 196px;
+            height: 55px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            background: linear-gradient(90deg, #EF4E2A 0%, #FE6422 100%);
+            border-radius: 12px;
+           }
+        }
+        
+    }
+
+    .flying-rocket{
+   
+        .rockk{
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 77px;
+                text-align: center;
+                letter-spacing: -0.04em;
+                background: linear-gradient(90deg, #20333D 0%, #2788BF 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #76777E;
+            }
+        }
+        margin: 50px auto;
+        .thriving-wrapper-text{
+            p{
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 48px;
+                letter-spacing: -0.03em;
+                color: #76777E;
+            }
+            a{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                background: linear-gradient(90deg, #EF4E2A 0%, #FE6422 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        
+    }
+
+    .thriving2{
+        margin-top: 100px;
+        &-header{
+            h1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 77px;
+                text-align: center;
+                letter-spacing: -0.04em;
+                background: linear-gradient(90deg, #20333D 0%, #BF5327 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                span{
+                    font-weight: 700;
+                }
+            }
+
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #76777E;
+            }
+        }
+
+        &-wrapper{
+            h2{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: -0.04em;
+                background: linear-gradient(90deg, #20243D 0%, #14548F 75.48%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+
+                span{
+                    font-weight: 700;
+                }
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 40px;
+                /* or 167% */
+                
+                letter-spacing: -0.03em;
+                color: #76777E;
+            }
+            a{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                background: linear-gradient(90deg, #EF4E2A 0%, #FE6422 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1000px){
+
+    .success{
+
+        ul{
+    
+            .guy{
+                width: 150px;
+                top: -100px;
+                right: -150px;
+    
+            }
+    
+            .teacher{
+                right: -100px;
+                bottom: -150px;
+    
+            }
+    
+            .laptop{
+                right: -350px;
+                bottom: -60px;
+    
+            }
+        }
+    }
+}
+
+
+@media (max-width: 900px){
+
+    .success{
+
+        ul{
+            position: relative;
+    
+            .guy{
+                width: 150px;
+                top: -100px;
+                right: -150px;
+    
+            }
+    
+            .teacher{
+                right: -100px;
+                bottom: -120px;
+    
+            }
+    
+            .laptop{
+                right: -320px;
+                bottom: -60px;
+    
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 720px){
+
+    .flying-rocket{
+        margin: 100px 0;
+    
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            letter-spacing: -0.03em;
+            color: #76777E;
+        }
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .streamline-showcase{
+        height: 100vh;
+        background: url(../media/ecommerse\ mobile.png);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .partner-showcase-wrapper{
+
+            h1{
+                font-size: 40px;
+                line-height: 48px;
+            }
+            button{
+             margin-top: 30px;
+             width: 165.64px;
+             height: 45px;
+             font-weight: 700;
+             font-size: 12px;
+             line-height: 15px;
+            }
+         }
+    
+    }
+
+
+    .success{
+
+        ul{
+            position: sticky;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+      
+            .guy{
+                position: sticky;
+                width: 100%;
+                top: 0px;
+                right: -0px;
+                padding: 5px;
+    
+            }
+    
+            .teacher{
+                position: static;
+                right: 0px;
+                bottom: 0px;
+    
+            }
+    
+            .laptop{
+                position: sticky;
+                right: 0px;
+                bottom: 0px;
+    
+            }
+        }
+    }
+}

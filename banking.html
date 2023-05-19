@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+
+
+
+
+     <title>WOW</title>
+</head>
+<body>
+
+    <div class="myContainer">
+        <header>
+            <nav class="navbar" uk-dropnav="mode: click">
+                <div class="navbar__logo">
+                    <a href="index.html"><img src="./assets/media/Frame.png" alt="Logo"></a>
+                </div>
+                <ul class="navbar__links uk-subnav">
+
+
+                    <li>
+                        <a href="#">Partner programs <span uk-drop-parent-icon></span></a>
+                        <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class=""><a href="equipment.html">Equipment page</a></li>
+                                <li><a href="reseller.html">Reseller Program</a></li>
+                                <li><a href="integrated.html">Integrated</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Solutions<span uk-drop-parent-icon></span></a>
+                        <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="banking.html">Banking</a></li>
+                                <li><a href="payments.html">Payments</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Business Types<span uk-drop-parent-icon></span></a>
+                        <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+
+                                <li><a href="partner.html">ISO Partner</a></li>
+                                <li><a href="boost.html">Boost</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="stremline.html">Streamline<span></span></a>
+                        <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <a href="about.html">About Us<span></span></a>
+                        <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <a href="contactus.html">Contact Us<span></span></a>
+                        <!-- <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div> -->
+                    </li>
+
+                </ul>
+                <div class="navbar__links__registration">
+
+                    <li>
+                        <a href="">Sign in<span uk-drop-parent-icon></span></a>
+                        <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="retailers.html">Retailers</a></li>
+                                <li><a href="earn.html">Earn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <button class="navbar__links__registration__button">Get Started </button>
+                </div>
+
+                <div class="navbar__mobile-menu-bar">
+                    <span class="uk-button " uk-toggle="target: #offcanvas-flip" uk-icon="menu"></span>
+
+                    <div id="offcanvas-flip" uk-offcanvas=" overlay: true">
+                        <div class="uk-offcanvas-bar">
+
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                            <div class="navbar__logo">
+                                <a href="index.html"><img src="./assets/media/Frame.png" alt="Logo"></a>
+                            </div>
+                            <ul uk-accordion>
+
+                                <li class="">
+                                    <a class="uk-accordion-title" href="#">Partner programs <span uk-drop-parent-icon></span></a>
+                                    <div class="uk-accordion-content">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li class=""><a href="equipment.html">Equipment page</a></li>
+                                            <li><a href="reseller.html">Reseller Program</a></li>
+                                            <li><a href="integrated.html">Integrated</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion-title" href="#">Solutions<span uk-drop-parent-icon></span></a>
+                                    <div class="uk-accordion-content">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="banking.html">Banking</a></li>
+                                            <li><a href="payments.html">Payments</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion-title" href="#">Business Types <span uk-drop-parent-icon></span></a>
+                                    <div class="uk-accordion-content">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="partner.html">ISO Partner</a></li>
+                                            <li><a href="boost.html">Boost</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion" href="stremline.html">Pricing</a>
+
+                                </li>
+                                <li>
+                                    <a class="uk-accordion" href="about.html">Blogs</a>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion" href="contactus.html">Blogs</a>
+                                </li>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-header-new">
+                                        <button style="color: #76777E; font-size: 14px;"
+                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Sign in <span uk-drop-parent-icon></span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <li><a href="retailers.html">Retailers</a></li>
+                                            <li><a href="earn.html">Earn</a></li>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <li>
+                                    <button class="nav-btn">Get Started</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="banking-showcase">
+        <div class="myContainer">
+            <div class="banking-wrapper">
+                <div class="image">
+                    <img src="./assets/media/banking showcase img.png" alt="">
+                </div>
+                <div class="b-text">
+                    <div class="b-text-header">
+                        <h1>Full control of your banking
+                            services, payments,  and cash flow all in one place</h1>
+                        
+                            <img class="joystik" src="./assets/media/Joystick.png" alt="">
+                    </div>
+                    <p>Instant access to your funds right after the sale is made</p>
+                    <form>
+                        <button>Sign up</button>
+                        <a href="#">Contact Us</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="myContainer">
+        <div class="checkout">
+            <div class="checkout-text">
+                <h1>Check out <span>the numbers</span></h1>
+                <ul>
+                    <li><span>$0</span>Monthly Fees</li>
+                    <li><span>$0</span> Opening Deposit</li>
+                    <li><span>$0</span> Minimum Balance</li>
+                    <li><span>$0</span>Overdraft Fee</li>
+                    <li><span>$0</span> Monthly Fees</li>
+                    <li><span>$0</span>Annual Fee</li>
+                </ul>
+            </div>
+            <div class="checkout-img">
+                <img src="./assets/media/check img.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="weOffer">
+            <div class="weOffer-card1">
+                <h1>We offer 
+                     <span>Everything You 
+                         Need To Succeed</span></h1>
+            </div>
+
+            <div class="weOffer-cards">
+                <div class="weOffer-cards-card2 box1">
+                    <h3>Up to 1% <span>Cash Back</span></h3>
+                 
+                    <p>1% Cash Back on the WOW Business Debit
+                         Card with a minimum spend of $25,000 a month</p>
+                    <img class="balance" src="./assets/media/Balance Scale.png" alt="">
+                    <img class="moneybag" src="./assets/media/Money Bag.png" alt="">
+                </div>
+                <div class="weOffer-cards-card2 box2">
+                    <h3>We Match 1% of your <span>Initial Deposit</span></h3>
+                    
+                    <p>WOW matches 1% of the total deposits
+                         up to $100,000 in the first 90 days of opening the account</p>
+                    <img class="inbox" src="./assets/media/Inbox Tray.png" alt="">
+                </div>
+                <div class="weOffer-cards-card2 box3">
+                    <h3>1% APR on <span>your balances</span></h3>
+                    
+                    <p>Gain 1% APR that is accrued
+                         monthly on your balances. Offer valid for up to $100,000 in balances</p>
+                    <img class="mbag" src="./assets/media/Money Bag.png" alt="">
+                    <img class="balaces" src="./assets/media/Balance Scale (1).png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="debitCard">
+            <div class="debitCard-text">
+                <div class="debitCard-text-header">
+                    <h1>WOW Business <span>Debit Card</span></h1>
+                    <p>Get Same-Day Access to Your Funds After Every Sale</p>
+                </div>
+                <div class="debitCard-image">
+                    <img src="./assets/media/yellow cards.png" alt="">
+                </div>
+                <ul>
+                    <li><img src="./assets/media/Money Mouth Face.png" alt=""> <span>$0 Monthly</span></li>
+                    <li><img src="./assets/media/pencil 1.png" alt=""> <span>Easy sign-up process</span></li>
+                    <li><img src="./assets/media/Sports Medal.png" alt=""> <span>Earn rebates on expenses</span></li>
+                    <li><img src="./assets/media/Spiral Notepad.png" alt=""> <span>Become eligible for WOW Loans</span></li>
+                </ul>
+                <a href="#">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="debitCard-cardImg">
+                <img src="./assets/media/yellow cards.png" alt="">
+            </div>
+        </div>
+
+        <div class="rebates">
+            <div class="rebates-text">
+                <h2>Rebates on <span>Your Expenses</span></h2>
+                <p>With WOW Banking Services, businesses can save money with rebates
+                     across all types of everyday expenses. You can get these 
+                    discounts with your debit card at any participating merchant, 
+                    so it’s easy to take advantage</p>
+                
+                <a href="#">Let’s Partner &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="rebates-image">
+                <img src="./assets/media/bg33.png" alt="">
+            </div>
+            <div class="rebates-images">
+                <img src="./assets/media/saveup.png" alt="">
+                <img src="./assets/media/save4.png" alt="">
+                <img src="./assets/media/save11.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <form></form>
+
+
+    <div class="myContainer">
+        <footer>
+            <div class="footer__links">
+                <div class="footer__links__logo">
+                    <img src="./assets/media/Frame.png" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="footer__links__socials">
+                    <a href="#" uk-icon="icon: facebook"></a>
+                    <a href="#" uk-icon="icon: linkedin"></a>
+                    <a href="#" uk-icon="icon: instagram"></a>
+                </div>
+            </div>
+            <div class="footer__brands">
+                <a href="#"> <img src="./assets/media/google-rating.svg" alt=""></a>
+                <a href="#"><img src="./assets/media/glassdor rating.svg" alt=""></a>
+                <a href="#"><img src="./assets/media/trustpilot.svg" alt=""></a>
+                <a href="#"><img src="./assets/media/accredited business.svg" alt=""></a>
+                <a href="#"><img src="./assets/media/facebook rate.svg" alt=""></a>
+                <a href="#"><img src="./assets/media/pci.svg" alt=""></a>
+            </div>
+        </footer>
+    </div>
+
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
