@@ -272,21 +272,19 @@ body {
           height: 100%;
         }
       }
-      .poster__blur {
-        position: absolute;
-        width: 834px;
-        height: 497px;
-        background: linear-gradient(
-          116.04deg,
-          rgba(255, 255, 255, 0.4) 11.75%,
-          rgba(255, 255, 255, 0.1) 78.69%
-        );
-        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
-        backdrop-filter: blur(20px);
-        z-index: -1;
-        border-radius: 15px;
-      }
       .poster {
+        .poster__blur {
+          width: 834px;
+          background: linear-gradient(
+            116.04deg,
+            rgba(255, 255, 255, 0.4) 11.75%,
+            rgba(255, 255, 255, 0.1) 78.69%
+          );
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+          backdrop-filter: blur(20px);
+          z-index: -1;
+          border-radius: 15px;
+        }
         position: relative;
         width: 100%;
         height: 100%;
@@ -516,7 +514,9 @@ body {
         justify-content: center;
 
         img {
-          width: 100%;
+          width: 90%;
+          height: 80%;
+          object-fit: cover;
         }
       }
 
@@ -1334,9 +1334,7 @@ footer {
           font-size: 16px;
           line-height: 19px;
           height: 55px;
-
           color: #ffffff;
-
           &:hover {
             background: transparent;
             -webkit-text-fill-color: #ef4e2a;
@@ -1858,6 +1856,8 @@ footer {
       }
     }
 
+
+
     @media (max-width: 1200px) {
       .clients {
         .video-box {
@@ -1865,6 +1865,11 @@ footer {
             bottom: 15%;
           }
         }
+      }
+      .poster__blur {
+        position: static !important;
+        width: 834px !important;
+        height: auto !important;
       }
     }
 
@@ -2166,7 +2171,93 @@ footer {
   }
 }
 
+@media (max-width: 1383px) {
+  .myContainer .clients .video-box .poster{
+    width: 85% ;
+  }
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
+  }
+  .myContainer .clients .video-box .third-poster{
+    right: -40%;
+  }
+  .text-box{
+    p{
+      margin-left:-22%;
+    }
+  }
+}
+@media (max-width: 1263px) {
+  .myContainer .clients .video-box .poster{
+    width: 75% ;
+  }
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
+  }
+  .myContainer .clients .video-box .third-poster{
+    right: -30%;
+  }
+  .text-box{
+    p{
+      max-width: 350px;
+      margin-left:-60%;
+    }
+  }
+  .myContainer .clients .video-box .second-poster {
+
+    bottom: -40%;
+    right: 3%;
+
+}
+}
+@media (max-width: 1187px) {
+  .myContainer .clients .video-box .poster{
+    width: 65% ;
+  }
+  #clients-play-btn {
+    position: absolute;
+    bottom: -7% !important;
+    right: -2% !important;
+  }
+  .myContainer .clients .video-box .third-poster{
+    right: -18%;
+  }
+  .text-box{
+    p{
+      max-width: 350px;
+      margin-left:-190%;
+    }
+  }
+  .myContainer .clients .video-box .second-poster {
+
+    bottom: -40%;
+    right: 3%;
+
+}
+}
+
 @media (max-width: 1000px) {
+  .myContainer .clients .video-box .poster{
+    width: 100% ;
+  }
+}
+.myContainer .clients .video-box .second-poster {
+
+  bottom: -40%;
+  right: 3%;
+
+}
+.myContainer .clients .video-box .third-poster{
+  right: -2%;
+}
+.myContainer .clients .clients-link{
+  bottom: 1%;
+  left: 44%;
+}
   .homepageShowcase {
     overflow: hidden;
     width: 100%;
@@ -2264,7 +2355,7 @@ footer {
       }
     }
   }
-}
+
 
 @media (max-width: 760px) {
   .homepageShowcase {
@@ -2390,3 +2481,4 @@ footer {
     }
   }
 }
+  
